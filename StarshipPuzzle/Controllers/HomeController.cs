@@ -36,8 +36,9 @@ namespace StarshipPuzzles.Controllers
             _raiseShields.Name = "Raise Shields!";
             _raiseShields.Response = "Zwoooiinngg!";
             _warpSpeed.Name = "Engage Warp!";
-            _warpSpeed.Response = "Roger";
-            _teleport.Name = "Beam me up!";
+            _warpSpeed.Response = "Roger, make it so!";
+            _teleport.Name = "Start transporters";
+            _teleport.Response = "Beam me up Scotty!";
 
             result.AddCommand(new StarshipCommandVM(new StarshipCommand(1) { Name = "Ignition", Response = "Engine starts humming "  }));
 

@@ -1093,6 +1093,7 @@ body {
             border-radius: 50px;
             background: #de0b46;
             box-shadow: 0px 0px 70px 20px #de0b46;
+            cursor: pointer;
         }
 
         body .center .outer_one {
