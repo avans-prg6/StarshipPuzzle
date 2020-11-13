@@ -1,0 +1,8 @@
+﻿@model StarshipCommandVM
+<div class='future_ui__piece' onclick="playSound('/media/@{@Model.CommandId}.mp3');">
+    <span>@Model.Name</span>
+    <div class='line'></div>
+    <div class='tip'>
+        @Model.Tip
+    </div>
+</div>
